@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.deps.json
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.dll
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.pdb
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.AssemblyInfo.cs
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.dll
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\obj\Debug\net8.0\refint\DAL_Celebrity.dll
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.pdb
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\obj\Debug\net8.0\ref\DAL_Celebrity.dll
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.csproj.AssemblyReference.cache

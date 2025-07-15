@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "3Owusg39RL682wqbEXfL8zmKsXTKjzOlAvqWjW+omis=",
+  "Source": "ASPA002_2",
+  "BasePath": "_content/ASPA002_2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPA002_2\\wwwroot",
+      "Source": "ASPA002_2",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\",
+      "BasePath": "_content/ASPA002_2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\css\\index.css",
+      "SourceId": "ASPA002_2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\",
+      "BasePath": "_content/ASPA002_2",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5cfgi0ij94",
+      "Integrity": "WxxQcS6tjAqPlF5+P3lRG87mWq9xLSIpwOmlc1w7Prg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\js\\Calc.js",
+      "SourceId": "ASPA002_2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\",
+      "BasePath": "_content/ASPA002_2",
+      "RelativePath": "js/Calc#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5u7rawjhjo",
+      "Integrity": "bZpLylauBtRS0Gv7RYxAsEl4ybmycVSkQrVds09ps3Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Calc.js"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\Neumann.html",
+      "SourceId": "ASPA002_2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\",
+      "BasePath": "_content/ASPA002_2",
+      "RelativePath": "Neumann#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0lvtt0ln5k",
+      "Integrity": "JJKVxGsUDv05wlm9OANMQxrfdhkh3st7+YGbhNL38jk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Neumann.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/index.5cfgi0ij94.css",
+      "AssetFile": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WxxQcS6tjAqPlF5+P3lRG87mWq9xLSIpwOmlc1w7Prg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 17:14:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5cfgi0ij94"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WxxQcS6tjAqPlF5+P3lRG87mWq9xLSIpwOmlc1w7Prg="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WxxQcS6tjAqPlF5+P3lRG87mWq9xLSIpwOmlc1w7Prg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 17:14:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WxxQcS6tjAqPlF5+P3lRG87mWq9xLSIpwOmlc1w7Prg="
+        }
+      ]
+    },
+    {
+      "Route": "js/Calc.5u7rawjhjo.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\js\\Calc.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZpLylauBtRS0Gv7RYxAsEl4ybmycVSkQrVds09ps3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 19:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5u7rawjhjo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Calc.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZpLylauBtRS0Gv7RYxAsEl4ybmycVSkQrVds09ps3Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/Calc.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\js\\Calc.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZpLylauBtRS0Gv7RYxAsEl4ybmycVSkQrVds09ps3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 19:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZpLylauBtRS0Gv7RYxAsEl4ybmycVSkQrVds09ps3Q="
+        }
+      ]
+    },
+    {
+      "Route": "Neumann.0lvtt0ln5k.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\Neumann.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JJKVxGsUDv05wlm9OANMQxrfdhkh3st7+YGbhNL38jk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 19:50:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0lvtt0ln5k"
+        },
+        {
+          "Name": "label",
+          "Value": "Neumann.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JJKVxGsUDv05wlm9OANMQxrfdhkh3st7+YGbhNL38jk="
+        }
+      ]
+    },
+    {
+      "Route": "Neumann.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA002_2\\wwwroot\\Neumann.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JJKVxGsUDv05wlm9OANMQxrfdhkh3st7+YGbhNL38jk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 19:50:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JJKVxGsUDv05wlm9OANMQxrfdhkh3st7+YGbhNL38jk="
+        }
+      ]
+    }
+  ]
+}

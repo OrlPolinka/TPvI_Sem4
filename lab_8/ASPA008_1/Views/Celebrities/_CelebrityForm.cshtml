@@ -1,0 +1,62 @@
+﻿@model DAL_Celebrity_MSSQL.Celebrity
+@inject ANC25_WEBAPI_DLL.CelebritiesConfig.CountryCodes CountryCodesService
+@using ASPA008_1.Helpers
+
+@{
+    var countries = CountryCodesService.Codes.Select(c => new SelectListItem
+            {
+                Value = c.code,
+                Text = c.countryLabel,
+                Selected = (Model.Nationality == c.code)
+            }).ToList();
+}
+
+<section class="container d-flex justify-content-center align-items-center py-5">
+    <div class="card shadow-lg p-4 w-100" style="max-width: 600px; border-radius: 1rem;">
+        <h2 class="text-center mb-4 fw-bold text-primary">
+            @(Model.Id == 0 ? "Добавить знаменитость" : "Редактировать знаменитость")
+        </h2>
+
+        @using (Html.BeginForm(Model.Id == 0 ? "Create" : "Edit", "Celebrities", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            @if (Model.Id != 0)
+            {
+                @Html.HiddenFor(model => model.Id)
+                @Html.HiddenFor(model => model.ReqPhotoPath)
+            }
+
+            <div class="mb-3">
+                <label asp-for="FullName" class="form-label fw-semibold">Полное имя</label>
+                <input asp-for="FullName" class="form-control form-control-lg" />
+                <span asp-validation-for="FullName" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Nationality" class="form-label fw-semibold">Страна</label>
+                @Html.DropDownListFor(model => model.Nationality, countries, "Выберите страну", new { @class = "form-select form-select-lg" })
+                <span asp-validation-for="Nationality" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="ReqPhotoPath" class="form-label fw-semibold">Фотография</label>
+                <input type="file" name="photoFile" class="form-control" />
+                @if (!string.IsNullOrEmpty(Model.ReqPhotoPath))
+                {
+                    <div class="mt-2">
+                        <small class="text-muted">Текущее фото:</small>
+                        <div class="mt-1">@Html.CelebrityFoto(Model, 100, 100)</div>
+                    </div>
+                }
+                <span asp-validation-for="ReqPhotoPath" class="text-danger small"></span>
+            </div>
+
+            <div class="d-grid mt-4">
+                <input type="submit" value="@(Model.Id == 0 ? "Добавить" : "Сохранить")" class="btn btn-outline-primary btn-lg rounded-pill" />
+            </div>
+        }
+    </div>
+</section>

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "AlCZAxAON8yDHeFnuBF5bIp2lwvu8XrFnRZvQzSrTps=",
+  "Source": "ASPA005_1",
+  "BasePath": "_content/ASPA005_1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPA005_1\\wwwroot",
+      "Source": "ASPA005_1",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA005_1\\wwwroot\\",
+      "BasePath": "_content/ASPA005_1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

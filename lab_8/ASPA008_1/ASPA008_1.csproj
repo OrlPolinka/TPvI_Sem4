@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ANC25_WEBAPI_DLL\ANC25_WEBAPI_DLL.csproj" />
+    <ProjectReference Include="..\DAL_Celebrity\DAL_Celebrity.csproj" />
+    <ProjectReference Include="C:\Users\user\Desktop\VS\ТПвИ\lab_8\DAL_Celebrity_MSSQL\DAL_Celebrity_MSSQL.csproj" />
+  </ItemGroup>
+
+</Project>

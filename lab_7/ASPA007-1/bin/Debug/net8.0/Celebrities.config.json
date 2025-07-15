@@ -1,0 +1,7 @@
+﻿{
+  "Celebrities": {
+    "PhotosFolder": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\lab_7\\Celebrities_Photos",
+    "ConnectionString": "Server=WIN-FSAHKJTGC3M; Database = Lab6_Db; TrustServerCertificate=True; Trusted_Connection=true"
+  }
+
+}

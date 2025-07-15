@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA005_1\wwwroot\Celebrities\Berners-Lee.jpg
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA005_1\wwwroot\Celebrities\Celebrities.json
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA005_1\wwwroot\Celebrities\Chomsky.jpg
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA005_1\wwwroot\Celebrities\Codd.jpg
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA005_1\wwwroot\Celebrities\Dijkstra.jpg
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA005_1\wwwroot\Celebrities\Knuth.jpg
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA005_1\wwwroot\Celebrities\Linus.jpg
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA005_1\wwwroot\Celebrities\Neumann.jpg

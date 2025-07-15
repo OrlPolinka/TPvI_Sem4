@@ -1,0 +1,26 @@
+﻿@model DAL_Celebrity_MSSQL.Celebrity
+
+@{
+    ViewData["Title"] = Model.Id == 0 ? "Добавить знаменитость" : "Редактировать знаменитость";
+}
+
+<section class="container py-5">
+    <div class="card shadow-lg mx-auto" style="max-width: 700px; border-radius: 1rem;">
+        <div class="card-body p-4">
+            <h2 class="text-center mb-4 text-primary fw-bold">
+                @ViewData["Title"]
+            </h2>
+            <hr class="mb-4" />
+
+            <div>
+                @await Html.PartialAsync("_CelebrityForm", Model)
+            </div>
+
+            <div class="text-center mt-4">
+                <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                    🔙 Вернуться к списку
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

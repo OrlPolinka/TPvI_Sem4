@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA005_1\\wwwroot\\Celebrities\\Berners-Lee.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Berners-Lee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA005_1\\wwwroot\\Celebrities\\Celebrities.json",
+      "PackagePath": "staticwebassets\\Celebrities\\Celebrities.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA005_1\\wwwroot\\Celebrities\\Chomsky.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Chomsky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA005_1\\wwwroot\\Celebrities\\Codd.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Codd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA005_1\\wwwroot\\Celebrities\\Dijkstra.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Dijkstra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA005_1\\wwwroot\\Celebrities\\Knuth.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Knuth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA005_1\\wwwroot\\Celebrities\\Linus.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Linus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA005_1\\wwwroot\\Celebrities\\Neumann.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Neumann.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASPA005_1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASPA005_1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ASPA005_1.props",
+      "PackagePath": "build\\ASPA005_1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ASPA005_1.props",
+      "PackagePath": "buildMultiTargeting\\ASPA005_1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ASPA005_1.props",
+      "PackagePath": "buildTransitive\\ASPA005_1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

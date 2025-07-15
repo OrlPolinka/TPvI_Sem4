@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Celebrities\\downoload\\Berners-Lee.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\downoload\\Berners-Lee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Celebrities\\downoload\\Celebrities.json",
+      "PackagePath": "staticwebassets\\Celebrities\\downoload\\Celebrities.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Celebrities\\downoload\\Chomsky.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\downoload\\Chomsky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Celebrities\\downoload\\Codd.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\downoload\\Codd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Celebrities\\downoload\\Dijkstra.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\downoload\\Dijkstra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Celebrities\\downoload\\Knuth.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\downoload\\Knuth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Celebrities\\downoload\\Linus.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\downoload\\Linus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Celebrities\\downoload\\Neumann.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\downoload\\Neumann.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Photo\\Berners-Lee.jpg",
+      "PackagePath": "staticwebassets\\Photo\\Berners-Lee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Photo\\Celebrities.json",
+      "PackagePath": "staticwebassets\\Photo\\Celebrities.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Photo\\Chomsky.jpg",
+      "PackagePath": "staticwebassets\\Photo\\Chomsky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Photo\\Codd.jpg",
+      "PackagePath": "staticwebassets\\Photo\\Codd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Photo\\Dijkstra.jpg",
+      "PackagePath": "staticwebassets\\Photo\\Dijkstra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Photo\\Knuth.jpg",
+      "PackagePath": "staticwebassets\\Photo\\Knuth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Photo\\Linus.jpg",
+      "PackagePath": "staticwebassets\\Photo\\Linus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\ASPA003\\wwwroot\\Photo\\Neumann.jpg",
+      "PackagePath": "staticwebassets\\Photo\\Neumann.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASPA003.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASPA003.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ASPA003.props",
+      "PackagePath": "build\\ASPA003.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ASPA003.props",
+      "PackagePath": "buildMultiTargeting\\ASPA003.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ASPA003.props",
+      "PackagePath": "buildTransitive\\ASPA003.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,72 @@
+﻿@page
+@model ASPA007_1.Pages.NewCelebrityModel
+<head>
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+
+@{
+    Layout = null;
+}
+<style>
+    .form-container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #f8f9fa;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        font-family: sans-serif;
+    }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-container label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 4px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #258cfb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            margin-top: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .form-container button:hover {
+                background-color: #106edc;
+            }
+</style>
+<div class="form-container">
+    <h2>Добавить знаменитость</h2>
+    <form method="post" enctype="multipart/form-data">
+        <label>ФИО</label>
+        <input type="text" name="FullName" required />
+
+        <label>Национальность</label>
+        <input type="text" name="Nationality" required />
+
+        <label>Фотография</label>
+        <input type="file" name="Photo" accept="image/*" required />
+
+        <button type="submit">Добавить</button>
+    </form>
+</div>

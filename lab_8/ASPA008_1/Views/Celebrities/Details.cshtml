@@ -1,0 +1,54 @@
+﻿@model DAL_Celebrity_MSSQL.Celebrity
+@using ASPA008_1.Helpers
+
+@{
+    ViewData["Title"] = Model.FullName;
+}
+
+<section class="container py-5">
+    <div class="card shadow-lg mx-auto" style="max-width: 800px; border-radius: 1rem;">
+        <div class="card-body p-4">
+            <h2 class="text-center mb-4 text-primary fw-bold">@Model.FullName</h2>
+            <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+                <div class="text-center">
+                    @Html.CelebrityFoto(Model, 200, 200)
+                </div>
+                <div class="w-100">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span class="fw-semibold">Имя:</span>
+                            <span>@Model.FullName</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span class="fw-semibold">Национальность:</span>
+                            <span>@Model.Nationality</span>
+                        </li>
+                    </ul>
+
+                    @if (ViewData["WikipediaLinksDict"] is Dictionary<string, string> wikipediaLinksDict && wikipediaLinksDict.Count > 0)
+                    {
+                        <div class="mt-4">
+                            <h5 class="fw-bold">Ссылки на Wikipedia</h5>
+                            <ul class="list-unstyled">
+                                @foreach (var kvp in wikipediaLinksDict)
+                                {
+                                    <li>
+                                        <a href="@kvp.Value" target="_blank" class="link-primary">
+                                            🌐 @kvp.Key
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="mt-5 d-flex justify-content-center flex-wrap gap-3">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-warning px-4">✏️ Редактировать</a>
+                <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-outline-danger px-4">🗑️ Удалить</a>
+                <a asp-action="Index" class="btn btn-outline-secondary px-4">🔙 Назад к списку</a>
+            </div>
+        </div>
+    </div>
+</section>

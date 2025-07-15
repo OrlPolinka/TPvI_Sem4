@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+	  <ProjectReference Include="..\DAL_Celebrity\DAL_Celebrity.csproj" />
+	  <ProjectReference Include="..\DAL_Celebrity_MSSQL\DAL_Celebrity_MSSQL.csproj" />
+	  <ProjectReference Include="C:\Users\user\Desktop\VS\ТПвИ\lab_8\DAL_Celebrity_MSSQL\DAL_Celebrity_MSSQL.csproj" />
+    </ItemGroup>
+</Project>

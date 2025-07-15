@@ -1,0 +1,159 @@
+﻿@page "{id:int}"
+@model ASPA007_1.Pages.CelebrityModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Celebrities Dictionary Internet Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #444;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .celebrity-info {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .celebrity-photo {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .events-list {
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        .event-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .event-date {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .event-description {
+            margin-top: 5px;
+            color: #333;
+        }
+
+        .no-events {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin: 20px 0;
+        }
+
+        .not-found {
+            text-align: center;
+            color: #666;
+            margin: 40px 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>Celebrities Dictionary Internet Service</div>
+        <div>
+            <a href="/" style="color: white; text-decoration: none;">Home</a>
+            <span style="margin: 0 10px;">|</span>
+            <a href="#" style="color: white; text-decoration: none;">Life Events</a>
+        </div>
+    </div>
+
+    <div class="content">
+        @if (Model.Celeb != null)
+        {
+            <h1>@Model.Celeb.FullName</h1>
+            <div class="celebrity-info">
+                <p>@Model.Celeb.Nationality</p>
+                <img src="/Photos/@Model.Celeb.ReqPhotoPath" class="celebrity-photo" />
+            </div>
+
+            <div class="events-list">
+                <h2>Жизненные события</h2>
+
+                @if (Model.LifeEvents != null && Model.LifeEvents.Any())
+                {
+                    @foreach (var ev in Model.LifeEvents)
+                    {
+                        <div class="event-item">
+                            <div class="event-date">@ev.Date.ToString("dd.MM.yyyy")</div>
+                            <div class="event-description">@ev.Description</div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="no-events">События не найдены.</div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="not-found">Знаменитость не найдена.</div>
+        }
+    </div>
+
+    <div class="footer">
+        © Copyright BSTU Development
+    </div>
+</body>
+</html>

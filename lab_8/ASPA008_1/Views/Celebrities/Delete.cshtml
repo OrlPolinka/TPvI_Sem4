@@ -1,0 +1,38 @@
+﻿@using ASPA008_1.Helpers
+@model DAL_Celebrity_MSSQL.Celebrity
+
+@{
+    ViewData["Title"] = "Удалить знаменитость";
+}
+
+<section class="container py-5">
+    <div class="card shadow-sm border-danger mx-auto" style="max-width: 720px; border-radius: 1rem;">
+        <div class="card-header bg-danger text-white text-center" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
+            <h2 class="mb-0">Удаление знаменитости</h2>
+        </div>
+
+        <div class="card-body p-4">
+            <p class="text-center text-danger fs-5 fw-semibold mb-4">
+                Вы уверены, что хотите удалить эту знаменитость?
+            </p>
+
+            <div class="d-flex align-items-center mb-4">
+                <div class="me-4">
+                    @Html.CelebrityFoto(Model, 150, 150)
+                </div>
+                <div>
+                    <h5 class="mb-2"><strong>Имя:</strong> @Model.FullName</h5>
+                    <p><strong>Национальность:</strong> @Model.Nationality</p>
+                </div>
+            </div>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-danger px-4">Удалить</button>
+                    <a asp-action="Index" class="btn btn-outline-secondary px-4">Вернуться к списку</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

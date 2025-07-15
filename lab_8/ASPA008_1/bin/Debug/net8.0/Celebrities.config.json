@@ -1,0 +1,8 @@
+﻿{
+  "Celebrities": {
+    "PhotosRequeestPath": "/Photos",
+    "PhotosFolder": "wwwroot/Photos",
+    "ConnectionString": "Server=WIN-FSAHKJTGC3M; Database=Lab6_Db; Trusted_Connection=true; TrustServerCertificate=Yes",
+    "IS03166alpha2Path": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\lab_8\\ASPA008_1\\CountryCodes\\Лабораторная_08__iso3166-1-alpha2-country-codes.json"
+  }
+  }

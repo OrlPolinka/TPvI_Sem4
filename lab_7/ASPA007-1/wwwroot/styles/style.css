@@ -1,0 +1,20 @@
+﻿
+#photoGrid img {
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.2s;
+}
+
+#photoGrid img:hover {
+  border: 2px solid #007bff;
+
+}
+
+#celebrityInfo{
+    display:flex;
+    flex-flow:row wrap;
+}
+#celebrityInfo p{
+    flex:1 1 100%;
+}

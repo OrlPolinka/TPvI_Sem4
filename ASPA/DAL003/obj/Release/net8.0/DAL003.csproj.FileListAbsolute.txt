@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\bin\Release\net8.0\DAL003.deps.json
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\bin\Release\net8.0\DAL003.dll
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\bin\Release\net8.0\DAL003.pdb
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\obj\Release\net8.0\DAL003.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\obj\Release\net8.0\DAL003.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\obj\Release\net8.0\DAL003.AssemblyInfo.cs
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\obj\Release\net8.0\DAL003.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\obj\Release\net8.0\DAL003.dll
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\obj\Release\net8.0\refint\DAL003.dll
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\obj\Release\net8.0\DAL003.pdb
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\DAL003\obj\Release\net8.0\ref\DAL003.dll

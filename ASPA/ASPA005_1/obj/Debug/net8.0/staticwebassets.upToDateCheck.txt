@@ -1,0 +1,8 @@
+wwwroot\Celebrities\Berners-Lee.jpg
+wwwroot\Celebrities\Celebrities.json
+wwwroot\Celebrities\Chomsky.jpg
+wwwroot\Celebrities\Codd.jpg
+wwwroot\Celebrities\Dijkstra.jpg
+wwwroot\Celebrities\Knuth.jpg
+wwwroot\Celebrities\Linus.jpg
+wwwroot\Celebrities\Neumann.jpg

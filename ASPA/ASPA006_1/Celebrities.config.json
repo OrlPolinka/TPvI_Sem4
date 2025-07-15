@@ -1,0 +1,7 @@
+{
+  "Celebrities": {
+    "PhotosFolder": "C:\\Users\\user\\Desktop\\VS\\ТПвИ\\ASPA\\Celebrities_Photos",
+    "ConnectionString": "Server=WIN-FSAHKJTGC3M; Database=Lab6_Db; Trusted_Connection=true; TrustServerCertificate=Yes"
+  }
+
+}

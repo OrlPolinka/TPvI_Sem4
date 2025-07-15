@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA007_1\wwwroot\css\site.css
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA007_1\wwwroot\css\style.css
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA007_1\wwwroot\details.html
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA007_1\wwwroot\js\details.js
+C:\Users\user\Desktop\VS\ТПвИ\ASPA\ASPA007_1\wwwroot\js\site.js
